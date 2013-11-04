@@ -101,32 +101,32 @@ class Character:
                     
                     favored = raw_input("Humans get to choose one Ability to boost by 2. What is Your Favored Ability?")
                     
-                    if favored == "STR" or choice == "str" or choice == "Strength" or choice == "strength" or choice == "STRENGTH":
+                    if favored == "STR" or favored == "str" or favored == "Strength" or favored == "strength" or favored == "STRENGTH":
                         self.str += 2
                         fcorrect = True
                         
-                    elif choice == 'DEX' or choice == 'dex' or choice == 'Dexterity' or choice == 'dexterity' or choice == 'DEXTERITY':
+                    elif favored == 'DEX' or favored == 'dex' or favored == 'Dexterity' or favored == 'dexterity' or favored == 'DEXTERITY':
                         self.dex += 2
                         fcorrect = True
                         
-                    elif choice == 'CON' or choice == 'con' or choice == 'Constitution' or choice == 'constitution' or choice == 'Constitution':
+                    elif favored == 'CON' or favored == 'con' or favored == 'Constitution' or favored == 'constitution' or favored == 'Constitution':
                         self.con += 2
                         fcorrect = True
                         
-                    elif choice == 'INT' or choice == 'int' or choice == 'Intelligence' or choice == 'intelligence' or choice == 'INTELLIGENCE':
+                    elif favored == 'INT' or favored == 'int' or favored == 'Intelligence' or favored == 'intelligence' or favored == 'INTELLIGENCE':
                         self.int += 2
                         fcorrect = True
                         
-                    elif choice == 'WIS' or choice == 'wis' or choice == 'Wisdom' or choice == 'wisdom' or choice == 'WISDOM':
+                    elif favored == 'WIS' or favored == 'wis' or favored == 'Wisdom' or favored == 'wisdom' or favored == 'WISDOM':
                         self.wis += 2
                         fcorrect = True
                         
-                    elif choice == 'CHA' or choice == 'cha' or choice == 'Charisma' or choice == 'charisma' or choice == 'CHARISMA':
+                    elif favored == 'CHA' or favored == 'cha' or favored == 'Charisma' or favored == 'charisma' or favored == 'CHARISMA':
                         self.cha += 2
                         fcorrect = True
                         
                     else:
-                        "Sorry, I don't recognize '" + choice + "', maybe try the three-letter-code? (STR, DEX, CON, INT, WIS, CHA)"
+                        "Sorry, I don't recognize '" + favored + "', maybe try the three-letter-code? (STR, DEX, CON, INT, WIS, CHA)"
               
                 self.size = "Medium"
                 self.speed = 30
