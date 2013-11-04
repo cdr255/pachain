@@ -1,0 +1,10 @@
+Pachen - the Pathfinder Character Encarnator. A simple CLI script
+meant to make creating pathfinder characters a quick and (relatively)
+painless process, allowing You to focus on the fluff instead of the
+crunch.
+
+Going into this, I realize that it will be fairly limited in its
+approach. This is meant to expediate the process, and will help to
+quickly create fairly basic characters. Those who know how to create
+characters well (and have the time to do so) shouldn't really need to
+use this utility at all.
